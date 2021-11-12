@@ -45,7 +45,7 @@ def menu(request):
     return render(request, 'home/Menu.html')
 
 def team(request):
-    return render(request, 'home/Teams.html')
+    return render(request, 'home/Team.html')
 
 def singleblog(request, id):
     try:

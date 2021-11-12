@@ -33,7 +33,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-2 col-lg-2">
                                 <div class="logo">
-                                    <a href="index.html"><img src="{%  static 'img/logo.png' %}" alt="logo"></a>
+                                    <a href="{% url 'index' %}"><img src="{%  static 'img/logo.png' %}" alt="logo"></a>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-3 text-right d-none d-lg-block">
@@ -51,23 +51,23 @@
                                             <li class="has-sub">
                                                 <a href="/">Home</a>
                                             </li>
-                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="{% url 'about' %}">About Us</a></li>
                                             <li class="has-sub">
-                                                <a href="menu.html">Menu</a>
+                                                <a href="{% url 'menu' %}">Menu</a>
                                             </li>
                                             <li class="has-sub"><a href="#">Page</a>
                                                 <ul>
                                                     <li class="has-sub">
-                                                        <a href="blog.html">Blog</a>
+                                                        <a href="{% url 'blog' %}">Blog</a>
                                                         <ul>
                                                             <li><a href="blog-grid.html">Blog Grid</a>
-                                                            <li><a href="blog.html"> Blog Right Sidebar</a>
+                                                            <li><a href="{% url 'blog' %}"> Blog Right Sidebar</a>
                                                             <li><a href="blog-left-sidebar.html"> Blog Left Sidebar</a>
                                                             <li><a href="blog-details.html">Blog Details</a>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="gallery.html">Gallery</a></li>
-                                                    <li><a href="team.html">Team</a></li>
+                                                    <li><a href="{% url 'gallery' %}">Gallery</a></li>
+                                                    <li><a href="{% url 'team' %}">Team</a></li>
     
                                                     <li><a href="shop.html">Shop</a></li>
                                                     <li><a href="shop-details.html">Shop Details</a></li>
