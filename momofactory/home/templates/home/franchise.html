@@ -1,0 +1,194 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title> Mecare – Hospital and Health HTML Template </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <!-- Place favicon.ico in the root Internist, General Practitonery -->
+
+<!-- CSS here -->
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="{%  static 'css/animate.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+<link rel="stylesheet" href="{% static 'css/all.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/dripicons.css' %}">
+<link rel="stylesheet" href="{% static 'css/slick.css' %}">
+<link rel="stylesheet" href="{% static 'css/default.css' %}">
+<link rel="stylesheet" href="{% static 'css/meanmenu.css' %}">
+<link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+<link rel="stylesheet" href="{% static 'css/bootstrap-datepicker.min.css' %}">
+<link rel="stylesheet" href="{% static  'css/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<link rel="stylesheet" href="{% static 'css/form.css' %}">
+
+
+    </head>
+    <body>
+        <!-- header -->
+        <header class="header-area">
+            <div id="header-sticky" class="menu-area">
+                <div class="container">
+                    <div class="second-menu">
+                        <div class="row align-items-center">
+                            <div class="col-xl-2 col-lg-2">
+                                <div class="logo">
+                                    <a href="/"><img src="{%  static 'img/logo.png' %}" alt="logo"></a>
+                                </div>
+                            </div>
+                            <!-- <div class="col-xl-3 col-lg-3 text-right d-none d-lg-block">
+                                <div class="cart-top">
+                                    <ul>
+                                        <li><a href="#"><i class="far fa-shopping-cart"></i></a></li>
+                                        <li><a href="#" class="menu-tigger"><i class="fal fa-bars"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div> -->
+                            <!-- <div class="col-xl-5 col-lg-7">
+                                <div class="main-menu text-right pr-15">
+                                    <nav id="mobile-menu">
+                                        <ul>
+                                            <li class="has-sub">
+                                                <a href="/">Home</a>
+                                            </li>
+                                            <li><a href="{% url 'about' %}">About Us</a></li>
+                                            <li class="has-sub">
+                                                <a href="{% url 'menu' %}">Menu</a>
+                                            </li>
+                                            <li class="has-sub"><a href="#">Page</a>
+                                                <ul>
+                                                    <li class="has-sub">
+                                                        <a href="blog.html">Blog</a>
+                                                        <ul>
+                                                            <li><a href="blog-grid.html">Blog Grid</a>
+                                                            <li><a href="blog.html"> Blog Right Sidebar</a>
+                                                            <li><a href="blog-left-sidebar.html"> Blog Left Sidebar</a>
+                                                            <li><a href="blog-details.html">Blog Details</a>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="gallery.html">Gallery</a></li>
+                                                    <li><a href="team.html">Team</a></li>
+    
+                                                    <li><a href="shop.html">Shop</a></li>
+                                                    <li><a href="shop-details.html">Shop Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div> -->
+                            <!-- <div class="col-xl-2 col-lg-2 d-none d-xl-block">
+                                <a href="contact.html" class="btn ss-btn">BOOK SEAT</a>
+    
+                            </div> -->
+                            <div class="col-12">
+                                <div class="mobile-menu"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- offcanvas-area -->
+                <div class="offcanvas-menu">
+                    <span class="menu-close"><i class="fas fa-times"></i></span>
+                    <form role="search" method="get" id="searchform" class="searchform"
+                        action="http://wordpress.zcube.in/xconsulta/">
+                        <input type="text" name="s" id="search" value="" placeholder="Search" />
+                        <button><i class="fa fa-search"></i></button>
+                    </form>
+    
+                    <div id="cssmenu2" class="menu-one-page-menu-container">
+                        <ul id="menu-one-page-menu-1" class="menu">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a href="#home"><span>+8 12
+                                        3456897</span></a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom"><a
+                                    href="#howitwork"><span>info@example.com</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="offcanvas-overly"></div>
+                <!-- offcanvas-end -->
+            </div>
+        </header>
+
+
+        <small>Enter message (optional) and click button "Send"</small>
+        <div class="wrapper centered">
+          <article class="letter">
+            <div class="side">
+              <h1>Contact us</h1>
+              <p>
+                <textarea placeholder="Your message"></textarea>
+              </p>
+            </div>
+            <div class="side">
+              <p>
+                <input type="text" placeholder="Your name" >
+              </p>
+              <p>
+                <input type="email" placeholder="Your email" >
+              </p>
+              <p>
+                <button id="sendLetter">Send</button>
+              </p>
+            </div>
+          </article>
+          <div class="envelope front"></div>
+          <div class="envelope back"></div>
+        </div>
+        <p class="result-message centered">Thank you for your message</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="{% static 'js/vendor/modernizr-3.5.0.min.js' %}"></script>
+        <script src="{% static 'js/vendor/jquery-1.12.4.min.js' %}"></script>
+        <script src="{% static 'js/popper.min.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/one-page-nav-min.js' %}"></script>
+        <script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>
+        <script src="{% static 'js/slick.min.js' %}"></script>
+        <script src="{% static 'js/ajax-form.js' %}"></script>
+        <script src="{% static 'js/paroller.js' %}"></script>
+        <script src="{% static 'js/wow.min.js' %}"></script>
+        <script src="{% static 'js/js_isotope.pkgd.min.js' %}"></script>
+        <script src="{% static 'js/imagesloaded.min.js' %}"></script>
+        <script src="{% static 'js/parallax.min.js' %}"></script>
+        <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+        <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+        <script src="{% static 'js/jquery.scrollUp.min.js' %}"></script>
+        <script src="{% static 'js/parallax-scroll.js' %}"></script>
+        <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+        <script src="{% static 'js/element-in-view.js' %}"></script>
+        <script src="{% static 'js/jquery.nice-select.js' %}"></script>
+        <script src="{% static 'js/bootstrap-datepicker.min.js' %}"></script>
+        <script src="{% static 'js/main.js' %}"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="{% static 'js/form.js' %}"></script>
+
+    </body>
+    </html>
