@@ -54,3 +54,9 @@ def singleblog(request, id):
         return redirect('/404')
 
     return render(request, 'home/singleblog.html')
+
+
+
+def franchiseform(request):
+
+    return render(request, 'home/franchise.html')

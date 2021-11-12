@@ -13,5 +13,6 @@ urlpatterns = [
     path('/gallery', views.gallery, name='gallery'),
     path('menu', views.menu, name='menu'),
     path('/team', views.team, name='team'),
-    path('singleblog/<int:id>', views.singleblog, name='singleblog')
+    path('singleblog/<int:id>', views.singleblog, name='singleblog'),
+    path('franchise', views.franchiseform, name='franchiseform')
     ]
